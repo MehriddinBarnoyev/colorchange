@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="javascript">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js lesson</title>
+</head>
+
+<body>
+
+    <h1>Hello javascript</h1>
+    <p id="demo"></p>
+    <script>
+
+        let x = "";
+        try {
+            nonExistentFunction();
+        } catch (error) {
+            alert("Xatolik: " + error.message); 
+        } finally {
+            x = 0;
+            console.log(x);
+        }
+
+
+        // let x = 0
+        // try {
+        // if(x === "") throw("Bo'sh")
+        // } catch (error) {
+        // document.getElementById('demo').innerHTML = error.message;
+        // }finally{
+        // x = 0
+        // console.log(x);
+
+        // }
+
+        // console.log(10 + 20);
+
+    </script>
+</body>
+
+</html>
